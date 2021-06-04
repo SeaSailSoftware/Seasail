@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seasail", "Seasail.csproj", "{4AB62D79-1F15-4CE8-B7B6-0B7D30DB67FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Seasail.DataAccess", "Seasail.DataAccess", "{8A3DA118-E942-4FFB-814C-13B4204524D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seasail.DataAccess.Repository", "..\Seasail.DataAccess\Seasail.DataAccess.Repository\Seasail.DataAccess.Repository.csproj", "{A815C575-6756-4364-A9D9-80C4FCC9FEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seasail.DataAccess", "..\Seasail.DataAccess\Seasail.DataAccess\Seasail.DataAccess.csproj", "{107C0D2D-477D-4164-81FF-CF9B115E0861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seasail.DataAccess.EF", "..\Seasail.DataAccess\Seasail.DataAccess.EF\Seasail.DataAccess.EF.csproj", "{56710519-1CAE-4E31-97ED-D6DE75460058}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AB62D79-1F15-4CE8-B7B6-0B7D30DB67FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB62D79-1F15-4CE8-B7B6-0B7D30DB67FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB62D79-1F15-4CE8-B7B6-0B7D30DB67FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB62D79-1F15-4CE8-B7B6-0B7D30DB67FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A815C575-6756-4364-A9D9-80C4FCC9FEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A815C575-6756-4364-A9D9-80C4FCC9FEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A815C575-6756-4364-A9D9-80C4FCC9FEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A815C575-6756-4364-A9D9-80C4FCC9FEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107C0D2D-477D-4164-81FF-CF9B115E0861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107C0D2D-477D-4164-81FF-CF9B115E0861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107C0D2D-477D-4164-81FF-CF9B115E0861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107C0D2D-477D-4164-81FF-CF9B115E0861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56710519-1CAE-4E31-97ED-D6DE75460058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56710519-1CAE-4E31-97ED-D6DE75460058}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56710519-1CAE-4E31-97ED-D6DE75460058}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56710519-1CAE-4E31-97ED-D6DE75460058}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A815C575-6756-4364-A9D9-80C4FCC9FEC1} = {8A3DA118-E942-4FFB-814C-13B4204524D9}
+		{107C0D2D-477D-4164-81FF-CF9B115E0861} = {8A3DA118-E942-4FFB-814C-13B4204524D9}
+		{56710519-1CAE-4E31-97ED-D6DE75460058} = {8A3DA118-E942-4FFB-814C-13B4204524D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3071EF73-4F9C-452C-9023-7DCEA531C6DE}
+	EndGlobalSection
+EndGlobal
